@@ -9,6 +9,8 @@ import router from "./router/index"
 import Button from 'primevue/button'
 import Checkbox from 'primevue/checkbox'
 import RadioButton from 'primevue/radiobutton'
+import Dialog from "primevue/dialog";
+import InputText from "primevue/inputtext";
 
 const app = createApp(App);
 app.use(router);
@@ -17,4 +19,6 @@ app.component('Button', Button);
 app.component('Checkbox', Checkbox);
 app.component('RadioButton', RadioButton);
 app.component('RadioButton', RadioButton);
+app.component('Dialog', Dialog);
+app.component('InputText', InputText);
 app.mount('#app');
